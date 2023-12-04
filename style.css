@@ -7,4 +7,9 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: azure;
+  padding: 10px;
+}
+
+.mon {
+  display: flex;
 }
