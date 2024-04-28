@@ -1,13 +1,26 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: lightgray;
+  background-color: rgb(22, 22, 22);
 }
 
 .header {
   display: flex;
   justify-content: space-around;
-  background-color: azure;
+}
+
+.header a {
+  display: flex;
+  flex: 1;
+  font-size: 30px;
+  justify-content: center;
   padding: 10px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+}
+
+.header a.active {
+  color: yellow;
 }
 
 .mon {
@@ -16,12 +29,27 @@ body {
 
 .album {
   display: flex;
-  height: 300px;
-  width: 300px;
 }
 
 .movie {
   display: flex;
-  height: 600px;
-  width: 40px;
+  text-align: center;
+}
+
+.movie img,
+.album img {
+  width: 400px;
+}
+
+.movie div h1 {
+  color: white;
+}
+
+.movie div h2 {
+  color: green;
+}
+
+.movie div div{
+  padding: 0 20px;
+  color: lightgray;
 }
